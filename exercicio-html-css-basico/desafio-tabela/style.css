@@ -1,0 +1,33 @@
+/* Cor de fundo do cabeçalho moda - #BB86FC
+Cor de fundo do cabeçalho casa - #00C4B4
+Cor de fundo dos valores da tabela - #424250 */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.texto {
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cabecalho-moda {
+    background-color: #BB86FC;
+}
+
+.cabecalho-casa {
+    background-color: #00C4B4;
+}
+
+.valores {
+    background-color: #424250;
+}
+
+.tabela-moda, .tabela-casa {
+    margin: 40px;
+}
+
+th, td {
+    padding: 8px;
+}
